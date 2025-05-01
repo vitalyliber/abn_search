@@ -20,9 +20,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency("savon", "~> 2.6")
-  s.add_dependency("httparty", "~> 0")
-  s.add_dependency("nokogiri", "~> 1.6")
+  s.add_dependency("savon", "~> 2.15")
+  s.add_dependency("httparty", "~> 0.23")
   s.add_development_dependency "coveralls_reborn", "~> 0.26.0"
   s.add_development_dependency "rake", "~> 13.0"
   s.add_development_dependency "rspec", "~> 3.5", ">= 3.0"
